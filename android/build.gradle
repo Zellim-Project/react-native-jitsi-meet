@@ -38,8 +38,8 @@ android {
 
 repositories {
   maven {
-//       url("$rootDir/../jitsi-sdk")
-      url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
+      url("$rootDir/../jitsi-sdk")
+//       url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
   }
   google()
   mavenCentral()
