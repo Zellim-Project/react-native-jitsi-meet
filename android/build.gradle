@@ -38,7 +38,7 @@ android {
 
 repositories {
   maven {
-      url("$rootDir/../node_modules/react-native-jitsi-meet/jitsi-sdk")
+      url("$rootDir/../jitsi-sdk")
   }
   google()
   mavenCentral()
