@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
   s.platform     = :ios, "11.0"
 
-  s.source       = { :git => "git@github.com:FeracodeBR/cocoapods-specs.git", :branch => "master" }
+  s.source       = { :git => "git@github.com:FeracodeBR/react-native-jitsi-meet.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
 
   s.dependency 'React'
