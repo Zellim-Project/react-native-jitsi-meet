@@ -1,7 +1,7 @@
 {
   "name": "react-native-jitsi-meet",
   "description": "Smash Meet SDK wrapper for React Native.",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "author": {
     "name": "Feracode Development",
     "email": "feracode@gmail.com"
