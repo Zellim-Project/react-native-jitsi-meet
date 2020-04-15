@@ -47,6 +47,8 @@ repositories {
 dependencies {
     implementation ('org.jitsi.react:jitsi-meet-sdk:2.6.0') {
       exclude group: 'com.facebook',module:'hermes'
+      exclude group: 'com.facebook.react', module:'react-native-svg'
+      exclude group: 'com.facebook.react', module:'react-native-sound'
       transitive = true
     }
 }
